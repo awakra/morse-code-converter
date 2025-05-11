@@ -18,20 +18,35 @@ A simple command-line program that converts Latin alphabet text into internation
    ```bash
    git clone https://github.com/your-username/morse-code-converter.git
    cd morse-code-converter
+   ```
+   Run the program with:
 
-Run the program:
-python main.py
+   ```bash
+   python main.py
 
-Project structure
+   ```
+---
+## Flowchart
+![Flowchart](./flowchart.svg)
 
-main.py — Main program file
+---
 
-morse_dict.py — Stores the Morse dictionary
+---
 
-README.md — This instruction file
+## Project structure
 
-.gitignore — Files/folders ignored by Git
+- `main.py` — Main program file
+- `morse_dict.py` — Stores the Morse code dictionary
+- `README.md` — This instruction file
+- `.gitignore` — Files/folders ignored by Git
+- `flowchart.svg` — Project flowchart
 
-Example usage
-Enter a phrase to convert to Morse: Hello World
-.... . .-.. .-.. ---   .-- --- .-. .-.. -..
+---
+
+## Example usage
+
+**Input:**
+Hello World
+
+**Output:**
+.... . .-.. .-.. --- / .-- --- .-. .-.. -..
