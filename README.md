@@ -31,8 +31,6 @@ A simple command-line program that converts Latin alphabet text into internation
 
 ---
 
----
-
 ## Project structure
 
 - `main.py` — Main program file
