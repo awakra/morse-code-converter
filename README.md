@@ -1,24 +1,23 @@
-Morse Code Converter
+# Morse Code Converter
 
-This is a command-line (text-based) program that converts any text input by the user into Morse code.
+A simple command-line program that converts Latin alphabet text into international Morse code.
 
-How it works
+---
 
-The user enters a word or phrase.
+## How it works
 
-The program converts each character to its Morse code equivalent.
+1. The user enters a word or phrase.
+2. The program converts each character to its Morse code equivalent using a dictionary.
+3. The Morse code result is displayed on the screen.
 
-The Morse code result is displayed on the screen.
+---
 
-How to run the project
-Clone this repository:
-git clone https://github.com/awakra/morse-code-converter.git
-cd your-repository
+## How to run
 
-(Optional) Create and activate a virtual environment:
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate    # Windows
+1. **Clone this repository:**
+   ```bash
+   git clone https://github.com/your-username/morse-code-converter.git
+   cd morse-code-converter
 
 Run the program:
 python main.py
